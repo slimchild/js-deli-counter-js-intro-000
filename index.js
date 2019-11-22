@@ -12,7 +12,7 @@ if(katzDeliLine.length > 0){
 }
 
 function currentLine(katzDeliLine){
-  string boop = "";
+  let boop = "";
   for(var i = 0; i < katzDeliLine.length; i++){
     boop += i+1 + ". " + katzDeliLine[i];
   }
