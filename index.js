@@ -12,9 +12,10 @@ if(katzDeliLine.length > 0){
 }
 
 function currentLine(katzDeliLine){
+  string boop = "";
   for(var i = 0; i < katzDeliLine.length; i++){
-    //return ("The line is currently: " + (i+1) + "." + katzDeliLine.join());
+    boop += i+1 + ". " + katzDeliLine[i];
   }
-  return ("The line is currently: " + (i+1) + "." + katzDeliLine.join(i'.'));
+  return ("The line is currently: " + boop;
 }
   
